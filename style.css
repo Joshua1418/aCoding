@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    outline: none;
+}
+body {
+    font-size: 1.1rem;
+}
+.myHeaderContainer {
+    background-image: url(code.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    border: 2px solid;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 0.4rem 0;
+    border-color: rgb(158, 158, 144);
+}
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.7rem;
+    width: 50%;
+    height: 95px;
+    color: aliceblue;
+    background-color: rgba(55, 61, 43, 0.930);
+}
+.headerContainer .firstWord {
+    text-align: start;
+    padding-left: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.headerContainer .secondWord {
+    text-align:end;
+    padding-right: 2rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.firstSection {
+    margin-top: 197px;
+    width: 100%;
+    height: 470px;
+    background-color: rgba(55, 61, 43, 0.897);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(240, 248, 255, 0.877);
+    gap: 1rem;
+}
+.firstSection h1 {
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.firstSectionContent {
+    width: 80%;
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.firstSectionContent li {
+  text-align: center;
+  font-size: 1.4rem;
+  list-style: none;
+
+}
+.firstSection .firstSectionContentSecond {
+    width: 80%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border-style: solid;
+    border-width: 0px 5px 5px 0px ;
+    border-radius: 1rem 0 ;
+    border-bottom-color: grey;
+    border-right-color: rgb(66, 96, 97);
+}
+.secondSection {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: rgb(204, 209, 126);
+}
+.secondSection .secondSectionContent {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondSectionContent img {
+    padding-bottom: 1rem;
+}
+.secondSectionContent h2 {
+    background-color: beige;
+    color: rgb(7, 7, 43);
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secondSectionContent div {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondSectionContent div a {
+    padding: 0.7rem;
+    text-decoration: none;
+    font-size:1.2rem ;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+.secondSectionContent div .w3schools {
+    background-color: rgb(27, 173, 27);
+    width: 100%;
+}
+.secondSectionContent div .w3resource {
+    background-color: rgb(22, 65, 150);
+    color: rgb(139, 150, 158);
+    width: 100%;
+}
+.secondSectionContent div .freecodecamp {
+    background-color: rgb(6, 19, 41);
+    color: white;
+    width: 100%;
+}
+.secondSectionContent div .scrimba {
+    background-color: coral;
+    width: 100%;
+}
+.secondSectionContent div .siteduzero {
+    background-color: rgb(43, 45, 45);
+    color: beige;
+    width: 100%;
+}
+.secondSectionContent div .w3docs {
+    background-color: rgb(13, 13, 48);
+    color: azure;
+    width: 100%;
+}
+.secondSectionContent div .devdocs {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+.thirdSection {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.thirdSection h3 {
+    text-align: center;
+    color: rgb(5, 5, 32);
+    padding-bottom: 0.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid rgb(4, 4, 28);
+    border-left: 3px solid gray;
+    border-bottom-left-radius: 0.5rem;
+    width: 60%;
+}
+.thirdSectionContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.4rem;
+    margin-top: 1rem;
+}
+.thirdSectionContent img {
+    width: 45%;
+    border-radius: 50%;
+}
+.thirdSectionContent h2 {
+ 
+    color: rgb(12, 12, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thirdSectionContentTwo {
+    padding: 1rem;
+    width: 85%;
+    border-radius: 0.4rem;
+    background-color: beige;
+}
+
+.thirdSectionContentTwo h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 33);
+    text-align: center;
+}
+.thirdSectionContentTwo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: rgb(8, 8, 33);
+    text-align: center;
+}
+.thirdSection button {
+    padding: 1rem 1.7rem;
+    font-size: 1.3rem;
+    background-color: rgb(180, 180, 111);
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+
+}

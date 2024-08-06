@@ -1,3 +1,3 @@
 function goToWrite() {
-    location.href = "https://Joshua1418.github.io/JosueNzanza/";
+    location.href = "https://wa.me/+243831607980";
 }
